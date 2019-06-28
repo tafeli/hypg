@@ -1,0 +1,235 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ body{
+     width: 100vw;
+ }
+ 
+ /* Inicio Menu */
+header img{
+    max-width: 5vw;
+    margin-left: 5vw;
+}
+
+header ul{
+    list-style: none;
+    color: #ffffff;
+}
+
+ header ul li{
+    margin: 0 2vw 0 2vw;
+    font-family: fantasy;
+    font-size: 1.3em;
+}
+
+ul li a{
+    color: #ffffff;
+}
+
+/* Inicio do Banner */
+
+main .banner{
+    background-image: url("../img/banner.jpg");height: 2px;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+main .banner h2{
+    color: #ffffff;
+    font-size: 5em;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 3vh 10vw;
+}
+
+main .banner p{
+    text-shadow:4px 4px #3E1B79;
+    font-size: 2.5em;
+    width: 50vw;
+    color: #ffffff  ;
+    font-weight: bolder;
+    font-family: fantasy;
+}
+
+main .banner button{
+    border-radius: 45px;
+    width: 17vw;
+    background-color: #3E1B79;
+    border: none;
+    color: #ffffff;
+    padding: 3vh;
+    font-size: 1.5em;
+    margin: 2vh 1vw;
+    font-weight: bolder;
+}
+
+/* área de Produtos Casacos Hypados */
+
+main .categoria{
+    font-family: fantasy;
+    margin: 6vh 0;
+    color: #ffffff;
+    background-color:#3E1B79;
+}
+
+.prod h2{
+    color: #3E1B79;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: fantasy;
+    margin: 2vh 0vw;
+    scroll-margin-bottom: 5vh;
+}
+
+.product-display{
+    height: 45vh;
+    background-size: cover;
+    border: 4px #3E1B79 solid;
+    margin-top: 5vh;
+}
+
+
+.prod .product-name{
+    margin:0;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.prod .brand{
+    margin: 0;
+}
+
+.prod .price{
+    font-size: 1.3em;
+    color: #ffffff;
+    background-color: #3E1B79;
+    margin-top: 1.5vh;
+    padding: 0 2vw;
+    font-weight: bolder;
+}
+
+.categoria{
+    margin-left: 100px;
+}
+/* Produtos */
+
+.product-title-1{
+    background-image: url("../img/produto1.jpg");
+}
+
+.product-title-2{
+    background-image: url("../img/produto2.jpg");
+}
+
+.product-title-3{
+    background-image: url("../img/produto3.jpg");
+}
+
+.product-title-4{
+    background-image: url("../img/produto4.jpg");
+}
+
+/* Produtos Tenis */
+
+
+.product-title-5{
+    background-image: url("../img/produto5.jpg");
+}
+
+.product-title-6{
+    background-image: url("../img/produto6.jpg");
+}
+
+.product-title-7{
+    background-image: url("../img/produto7.jpg");
+}
+
+.product-title-8{
+    background-image: url("../img/produto8.jpg");
+}
+
+/* Produtos Camisetas */
+
+.product-title-9{
+    background-image: url("../img/produto9.jpg");
+}
+
+.product-title-10{
+    background-image: url("../img/produto10.jpg");
+}
+
+.product-title-11{
+    background-image: url("../img/produto11.jpg");
+}
+
+.product-title-12{
+    background-image: url("../img/produto12.jpg");
+}
+
+/* Inicio da Sessão do Footer */
+
+footer{
+    background-color: #3E1B79;
+    margin-top: 8vh;
+}
+
+footer p{
+    color: #ffffff;
+    margin:1vh 3vw;
+}
+
+footer div ul{
+    list-style: none;
+    margin-top: 1vh;
+}
+
+footer div ul li{
+    margin-right: 2vw;
+}
+
+/* Inicio do Media Querie */
+
+
+
+@media only screen and (max-width: 800px){
+/* Media query menu */
+header ul li{
+    margin: 0 2vw 0 2vw;
+    font-family: fantasy;
+    font-size: 1.1em;
+}
+
+
+
+
+    /* body{
+        background-color: black;
+    } */
+
+    .menu-grande {
+        display: none;
+    }
+
+    /* Correção do Banner */
+
+    main .banner button {
+        width: 40vw;
+
+    }
+
+
+
+    /* Correção Footer */
+
+    footer p{
+        display: none;
+}
+
+}
+
+/* @media only screen and (max-width: 390px){ */
+    /* Media query menu */
+
+

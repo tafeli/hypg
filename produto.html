@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo-check-out.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+    <title>HYPEG</title>    
+</head>
+
+<!-- Inicio área de Menu -->
+<!-- <body class="col-lg-12 "> -->
+    <header class="container navbar navbar-fixed-top navbar-expand-sm d-flex mt-10 flex-row justify-content-between align-items-center navbar-light justify-content-between">
+        <span>
+            <img src="img/logo.png" alt="Logo">
+        </span>
+
+        <button class="navbar-toggler m-0" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbarNav" aria-expanded ="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+
+        <nav class="collapse navbar-collapse text-center justify-content-end menu-grande" id="navbar1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Promoções</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
+                </ul>
+            </nav>
+
+    </header>
+
+    <!-- Inicio da área do Produto -->
+    <section class="checkout-produto row d-flex flex-wrap">
+
+        <h1 class="col-lg-12 d-flex flex-wrap justify-content-center align-items-center">Check Out</h1>
+
+        <article class="imagem e produto d-flex flex-row justify-content-center col-lg-12 flex-wrap">
+            <img src="img/checkout.png" alt="imagem-de-produto-hypado-1-exemplo col-sm-12" class="">
+            <div class="d-flex flex-column justify-content-center align-items-center  ">
+                <h2 class="d-flex justify-content-center">Produto Hypado 1</h2>
+                <h3>Produto certificado</h3>
+                <p clas="preco-a-vista" id="vista">US$300,00</p>
+                <P id="parcelado">Até 3x de US$110,00</P>
+                <form action="php">
+                    <ul class="d-flex justify-content-center align-items-center">
+                        <li>
+                            <label for="tamanho">PP</label>
+                            <input type="radio">
+                            <label for="tamanho">P</label>
+                            <input type="radio">
+                            <label for="tamanho">M</label>
+                            <input type="radio">
+                            <label for="tamanho">G</label>
+                            <input type="radio">
+                            <label for="tamanho">GG</label>
+                            <input type="radio">
+                        </li>
+                    </ul>
+                </form>
+                <button class="comprar">COMPRAR</button>
+                <div class="frete d-flex flex-row">
+                    <input type="text" class="frete1">
+                    <button class="calcular-frete">Calcular frete</button>
+                </div>
+            </div>
+
+        </article>
+    </section>
+
+    <!-- Descrição produto -->
+
+    <section class="descrição-do-produto d-flex justify-contet-center align-items-center flex-column">
+        <h2 class="col-lg-12 d-flex justify-content-center align-items-center" >O que é o Produto Hypado 1</h2>
+        <p class="col-lg-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque odit reprehenderit deleniti dolor placeat adipisci natus maiores quis nulla laboriosam facilis repellat laborum soluta, porro unde molestiae, perspiciatis fuga mollitia.</p>
+        <p class="col-lg-8">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque odit reprehenderit deleniti dolor placeat adipisci natus maiores quis nulla laboriosam facilis repellat laborum soluta, porro unde molestiae, perspiciatis fuga mollitia.</p>
+        <ul class="atributos d-flex flex-row flex-wrap col-lg-10 justify-content-between">
+            <li>100% Algodão</li>
+            <li>Feito na Italia</li>
+            <li>Coleção 2007</li>
+            <li>2 anos de uso</li>
+            <li>Avaliado em 4 estrelas</li>
+        </ul>
+    </section>
+
+    <!-- Aproveite e compre junto -->
+
+    <section class="produtos-relacionados">
+        <h2 class="col-lg-12 d-flex justify-content-center align-items-center" >Complete Seu Outfit</h2>
+        <article>
+            <section clas="container-fluid d-flex  align-items-center justify-content-center col-lg-12 ">
+                <div class="row d-flex  justify-content-center prod col-lg-12">
+                <!-- Produto 1 -->
+                <article class="col-lg-3 p-0 col-sm-12 col-md-6 d-flex   align-items-center justify-content-center flex-column">
+                    <div class="product-title-9 product-display  d-flex   justify-content-center align-items-center">
+                        <h2 >produto Hypado 1</h2>
+                </div>
+                    <p class="product-name">Camiseta hypada</p>
+                    <p class="brand">Marca Hypada</p>
+                    <p class="price">US$ 300,00</p>
+                </article>
+                <!-- Produto 2 -->
+                <article class="col-lg-3 p-0 col-sm-12 col-md-6 d-flex  align-items-center justify-content-center flex-column">
+                    <div class="product-title-10 product-display d-flex   justify-content-center align-items-center">
+                        <h2 >Produto Hypado 2</h2>
+                    </div>
+                    <p class="product-name">Camiseta hypada</p>
+                    <p class="brand">Marca Hypada</p>
+                    <p class="price">US$ 300,00</p>
+            </article>
+            <!-- Produto 1 -->
+            <article class="col-lg-3 p-0 col-sm-12 col-md-6 d-flex   align-items-center justify-content-center flex-column">
+                    <div class="product-title-9 product-display  d-flex   justify-content-center align-items-center">
+                        <h2 >produto Hypado 1</h2>
+                </div>
+                    <p class="product-name">Camiseta hypada</p>
+                    <p class="brand">Marca Hypada</p>
+                    <p class="price">US$ 300,00</p>
+                </article>
+                <!-- Produto 2 -->
+                <article class="col-lg-3 p-0 col-sm-12 col-md-6 d-flex  align-items-center justify-content-center flex-column">
+                    <div class="product-title-10 product-display d-flex   justify-content-center align-items-center">
+                        <h2 " >Produto Hypado 2</h2>
+                    </div>
+                    <p class="product-name">Camiseta hypada</p>
+                    <p class="brand">Marca Hypada</p>
+                    <p class="price">US$ 300,00</p>
+            </article>
+    </section>
+
+    <!-- Inicio da área de footer -->
+
+    <footer class="d-flex  justify-content-center">
+        <p>HYPEG todos os direitos reservados</p>
+        <div>
+            <ul class="d-flex  flex-row justify-content-end">
+                <li><a href="#">Home</a></li>
+                <li><a href="#camisetas">Camisetas</a></li>
+                <li><a href="#blusas">Blusas</a></li>
+                <li><a href="#calcas#">Calças</a></li>
+                <li><a href="#tenis">Tenis</a></li>
+            </ul>
+        </div>
+        
+    </footer>
+
+
+    
+</body>
+</html>

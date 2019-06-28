@@ -1,0 +1,129 @@
+/* Inicio da sessão de Checkou */
+
+.checkout-produto h1{
+    background-color: #3E1B79;
+    color: #ffffff;
+    font-family: fantasy;
+    margin: 4vh 0 4vh;
+}
+
+.checkout-produto img{
+    border: 4px #3E1B79 solid;
+    margin:0 10vw 0 0;
+    height: 70vh;
+}
+
+.checkout-produto h2{
+    background-color: #3E1B79;
+    color: #ffffff;
+    width: 30vw;
+    font-size: 2em;
+}
+
+.checkout-produto h3{
+    color: #3E1B79;
+    font-weight: bolder;
+    margin-bottom: 4vh;
+}
+
+#vista{
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 1vh 0 0 0;
+}
+
+#parcelado{
+    margin-top: 0%;
+    font-style: italic;
+}
+
+.checkout-produto ul{
+    list-style: none;
+    border: 2px #3E1B79 solid;
+    width: 15vw;
+    /* background-color: #3E1B79; */
+    border-radius: 30px;
+    color: #3E1B79;
+    padding-top: 0.4vh;
+    margin: 3vh 0;
+}
+
+
+.checkout-produto .comprar{
+    background-color: #3E1B79;
+    border-radius: 45px;
+    font-size: 1.5em;
+    padding: 1vh 4vw;
+    color: #ffffff;
+}
+
+.checkout-produto .frete1{
+    border: 2px #3E1B79 solid;
+    border-radius: 45px;
+    margin-top: 7vh;
+    margin-right: 0.5vw;
+}
+
+.checkout-produto .calcular-frete{
+    border: 2px #3E1B79 solid;
+    border-radius: 45px;
+    margin-top: 7vh;
+    width: 10vw;
+}
+
+/* Inicio da área de descrição do Produto */
+
+.descrição-do-produto h2{
+    background-color: #3E1B79;
+    color: #ffffff;
+    font-family: fantasy;
+    margin: 10vh 0 4vh;
+}
+
+.descrição-do-produto p {
+    margin: 3vh 35vw 0 35vw;
+    font-size: 1.2em;
+}
+
+.descrição-do-produto ul {
+    margin: 8vh;
+    list-style: none;
+    border: 3px #3E1B79 solid;
+}
+
+.descrição-do-produto ul li{
+    margin-right: 2vw;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/* Aproveite e compre junto */
+
+.produtos-relacionados h2{
+    background-color: #3E1B79;
+    color: #ffffff;
+    font-family: fantasy;
+    margin: 4vh 0 4vh;
+}
+
+@media (max-width:690px){
+    /* Inicio da sessão de checkout */
+
+    .checkout-produto h2{
+        width: 80vw;
+        margin-top:6vh;
+    }
+    
+    .checkout-produto ul{
+        width: 80vw;
+    }
+
+    .checkout-produto .calcular-frete{
+        width: 40vw;
+    }
+
+    .checkout-produto .frete1{
+        width: 60vw;
+        margin-left: 5vw;
+    }
+}
